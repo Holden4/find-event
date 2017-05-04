@@ -7,5 +7,10 @@ require 'grid_map'
      it 'Creates a new grid' do
        expect(subject).to be_an_instance_of(GridMap)
      end
-   end
- end
+
+
+      it 'contains grid squares' do
+        expect(subject.grid_squares).to eq([])
+      end
+    end
+  end
