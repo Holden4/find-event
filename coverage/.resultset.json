@@ -33,7 +33,11 @@
         1,
         null,
         1,
-        2,
+        3,
+        null,
+        1,
+        1,
+        null,
         null,
         1,
         1,
@@ -44,9 +48,15 @@
       "/home/dev/find-event/lib/grid_square.rb": [
         1,
         null,
+        1,
+        null,
+        1,
+        2,
+        null,
+        null,
         null
       ]
     },
-    "timestamp": 1493916933
+    "timestamp": 1493917314
   }
 }
