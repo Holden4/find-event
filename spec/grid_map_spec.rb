@@ -5,6 +5,5 @@ require 'grid_map'
 
     it 'Creates a grid map containing all grid squares' do
       expect(subject.grid_squares.count).to eq(441)
-
     end
   end

@@ -1,6 +1,35 @@
 {
   "RSpec": {
     "coverage": {
+      "/home/dev/find-event/spec/event_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/home/dev/find-event/lib/event.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        null
+      ],
       "/home/dev/find-event/spec/grid_map_spec.rb": [
         1,
         null,
@@ -9,8 +38,6 @@
         null,
         1,
         1,
-        1,
-        null,
         null,
         null
       ],
@@ -25,10 +52,10 @@
         null,
         null,
         1,
-        2,
-        42,
-        882,
-        882,
+        1,
+        21,
+        441,
+        441,
         null,
         null,
         null,
@@ -56,12 +83,12 @@
         1,
         null,
         1,
-        884,
+        443,
         null,
         null,
         null
       ]
     },
-    "timestamp": 1493918300
+    "timestamp": 1493919907
   }
 }
