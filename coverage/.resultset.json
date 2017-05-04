@@ -28,8 +28,25 @@
         2,
         null,
         null
+      ],
+      "/home/dev/find-event/spec/grid_square_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/home/dev/find-event/lib/grid_square.rb": [
+        1,
+        null,
+        null
       ]
     },
-    "timestamp": 1493915666
+    "timestamp": 1493916933
   }
 }
