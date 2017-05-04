@@ -7,6 +7,8 @@ class GridSquare
     @event = nil
     find_event
     end
+    
+private
 
     def find_event
       events = []
@@ -20,7 +22,12 @@ class GridSquare
       end
       events.each do |e|
         if e.coords == @coordinates
-          @event = [e.id, e.no_tickets, e.price, e.coords] if @event == nil
+          @event = {
+           "id": e.id,
+           "no_tickets": e.no_tickets,
+           "price": e.price,
+           "coords": e.coords
+         } if @event == nil
         end
       end
   end

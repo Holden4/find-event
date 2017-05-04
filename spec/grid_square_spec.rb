@@ -14,7 +14,7 @@ describe GridSquare do
 
 describe '::event' do
    it 'Loads event information if an event in the grid square exists' do
-       expect(grid_square2.event).to eq([1, 37, "$34.48", [3, 0]])
+       expect(grid_square2.event).to eq({:id=>1, :no_tickets=>37, :price=>"$34.48", :coords=>[3, 0]})
    end
 end
 end
