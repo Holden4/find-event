@@ -1,6 +1,6 @@
 # Find-Event
 [![Build Status](https://travis-ci.org/Holden4/find-event.png)](https://travis-ci.org/Holden4/find-event) -->
-<!-- [![Coverage Status](https://coveralls.io/repos/github/Holden4/find-event/badge.svg?branch=master)](https://coveralls.io/github/Holden4/find-event?branch=master) -->
+[![Coverage Status](https://coveralls.io/repos/github/Holden4/find-event/badge.svg?branch=master)](https://coveralls.io/github/Holden4/find-event?branch=master)
 
 A Ruby driven command line application that takes a set of users X and Y coordinates, and returns the 5 closest events to the user. (Rspec for test)
 
@@ -69,4 +69,3 @@ Have more than one ticket price per event (i.e stall seats or seated), I would d
 Support more than one event at the same location.
 Specificy the event search at certain locations, including upscaling of the grid square.
 Specific event finding by filtering certain squid squares.
-
