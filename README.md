@@ -2,7 +2,7 @@
 [![Build Status](https://travis-ci.org/Holden4/find-event.png)](https://travis-ci.org/Holden4/find-event) -->
 <!-- [![Coverage Status](https://coveralls.io/repos/github/Holden4/find-event/badge.svg?branch=master)](https://coveralls.io/github/Holden4/find-event?branch=master) -->
 
-A command line application that takes a set of users X and Y coordinates, and returns the 5 closest events to the user.
+A Ruby driven command line application that takes a set of users X and Y coordinates, and returns the 5 closest events to the user. (Rspec for test)
 
 ### Output Example
 Event 046 -  $31.65, Distance 1
@@ -35,33 +35,27 @@ My inital thought was to create the app using Ruby On Rails, so I would be able 
 In the end I used [Mockaroo](https://www.mockaroo.com/) to generate random seed data into a .csv.
 Ruby can parse the CSV file as JSON as it is prebuilt into the language. You just need to include "'require json'" at the top of the file.
 
-### Technologies Used
-
-**Ruby**
-
-**RSpec**
-
 ### How to Run The Code
 
-Clone this repo
+Clone tHIS
 
 The project is a command-line application.
 
-Start up irb
+Start up irb or pry (pry has pre-required files)
 
-Require the file require './lib/grid_map.rb'
+(if irb) Require the file require './lib/grid_map.rb'
 
 Create a grid_map: grid_map = GridMap.new
 
-Call method to find events grid_map.find_closest_events(desired coordinates)
+Call method grid_map.find_closest_events(desired coordinates)
 
 Example: grid_map.find_closest_events(3,4)
 
-Output will be displayed
+events output will be displayed
 
 #### Running The Tests
 
-Run rspec in the command-line
+Run 'rspec' in the command-line
 See 10 tests pass
 Assumptions
 
@@ -71,11 +65,8 @@ Assumptions
 
 ![Alt text](http://imgur.com/gklWkJj)
 
-Support multiple ticket prices at a single location
-Having multiple ticket prices inside an array which is inside the hash.
-Supporting multiple events at the same location.
-I would consider adding a date attribute for each event to distinguish which events were output when finding the closest five.
+Have more than one ticket price per event (i.e stall seats or seated), I would do this by adding more prices into the array inside the hash.
+Support more than one event at the same location.
 Specificy the event search at certain locations, including upscaling of the grid square.
-I would have an 'Area' class which would create a grid for a specific location of a specific size (e.g. this is X= -10 to 10 and Y= -10 to 10).
-When finding the five closest events I would ensure that the app required the user to input a location before the specific coordinates.
-I would add a location attribute to each event so that when events were assigned to a cell, the events were added to the cell at the correct location.
+Specific event finding by filtering certain squid squares.
+
