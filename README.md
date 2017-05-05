@@ -62,7 +62,7 @@ Assumptions
 
 .I would want to shift the program out of the command line interface as I orignally invisiged, and design a user interface more like the example below.
 
-![Alt text](http://imgur.com/gklWkJj)
+![Alt text](./images/gklWkJj - Imgur.png)
 
 Have more than one ticket price per event (i.e stall seats or seated), I would do this by adding more prices into the array inside the hash.
 Support more than one event at the same location.
